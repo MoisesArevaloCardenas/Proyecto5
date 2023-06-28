@@ -136,7 +136,6 @@ public class Cantante extends Persona {
         for (int i = 0; i < discografia.size(); i++) {
             Disco discoEncontrado = discografia.get(i);
             if (codigoBusqueda == disco.getCodigo()) {
-
             }
         }
     }

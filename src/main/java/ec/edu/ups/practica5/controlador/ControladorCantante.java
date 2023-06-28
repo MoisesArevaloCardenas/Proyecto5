@@ -4,7 +4,6 @@
  */
 package ec.edu.ups.practica5.controlador;
 
-import ec.edu.ups.practica5.dao.CantanteDAO;
 import ec.edu.ups.practica5.idao.ICantanteDAO;
 import ec.edu.ups.practica5.modelo.Cantante;
 import ec.edu.ups.practica5.modelo.Disco;
