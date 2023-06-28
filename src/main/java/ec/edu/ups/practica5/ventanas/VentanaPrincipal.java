@@ -57,7 +57,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     //Internacionalizacion
     private Locale localizacion;
     private ResourceBundle mensajes;
-
+    
     public VentanaPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -65,17 +65,23 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         controladorCantante = new ControladorCantante();
         compositorDAO = new CompositorDAO();
         controladorCompositor = new ControladorCompositor();
-
+        
         localizacion = Locale.getDefault();
         mensajes = ResourceBundle.getBundle("mensajes.mensaje", localizacion);
         cambiarIdioma();
     }
-
+    
     private void cambiarIdioma() {
         mensajes = ResourceBundle.getBundle("mensajes.mensaje", localizacion);
         menuCompositor.setText(mensajes.getString("menu.compositor"));
         menuCantante.setText(mensajes.getString("menu.cantante"));
-        menuIdiomas.setText(mensajes.getString("menu.opciones"));
+        menuIdiomas.setText(mensajes.getString("menu.idiomas"));
+        menuOpciones.setText(mensajes.getString("menu.opciones"));
+        menuCrearCompositor.setText(mensajes.getString("menu.crear"));
+        menuBuscarCompositor.setText(mensajes.getString("menu.buscar"));
+        menuActualizarCompositor.setText(mensajes.getString("menu.actualizar"));
+        menuEliminarCompositor.setText(mensajes.getString("menu.eliminar"));
+        menuItemSalirOpciones.setText(mensajes.getString("menu.salir"));
     }
 
     /**
@@ -105,8 +111,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         menuItemEspañol = new javax.swing.JMenuItem();
         menuItemIngles = new javax.swing.JMenuItem();
         menuItemFrances = new javax.swing.JMenuItem();
-        menuOpciones1 = new javax.swing.JMenu();
-        menuItemSalirOpciones1 = new javax.swing.JMenuItem();
+        menuOpciones = new javax.swing.JMenu();
+        menuItemSalirOpciones = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -236,17 +242,17 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         menuBar.add(menuIdiomas);
 
-        menuOpciones1.setText("Opciones");
+        menuOpciones.setText("Opciones");
 
-        menuItemSalirOpciones1.setText("Salir");
-        menuItemSalirOpciones1.addActionListener(new java.awt.event.ActionListener() {
+        menuItemSalirOpciones.setText("Salir");
+        menuItemSalirOpciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuItemSalirOpciones1ActionPerformed(evt);
+                menuItemSalirOpcionesActionPerformed(evt);
             }
         });
-        menuOpciones1.add(menuItemSalirOpciones1);
+        menuOpciones.add(menuItemSalirOpciones);
 
-        menuBar.add(menuOpciones1);
+        menuBar.add(menuOpciones);
 
         setJMenuBar(menuBar);
 
@@ -268,22 +274,22 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuCrearCompositorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCrearCompositorActionPerformed
-
+        
         if (ventanaAgregarCompositor == null) {
             ventanaAgregarCompositor = new VentanaAgregarCompositor(controladorCompositor);
             desktopPane.add(ventanaAgregarCompositor);
         }
-
+        
         ventanaAgregarCompositor.setVisible(true);
     }//GEN-LAST:event_menuCrearCompositorActionPerformed
 
     private void menuBuscarCompositorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuBuscarCompositorActionPerformed
-
+        
         if (ventanaBuscarCompositor == null) {
             ventanaBuscarCompositor = new VentanaBuscarCompositor(controladorCompositor);
             desktopPane.add(ventanaBuscarCompositor);
         }
-
+        
         ventanaBuscarCompositor.setVisible(true);
     }//GEN-LAST:event_menuBuscarCompositorActionPerformed
 
@@ -292,7 +298,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaActualizarCompositor = new VentanaActualizarCompositor(controladorCompositor);
             desktopPane.add(ventanaActualizarCompositor);
         }
-
+        
         ventanaActualizarCompositor.setVisible(true);
     }//GEN-LAST:event_menuActualizarCompositorActionPerformed
 
@@ -301,27 +307,27 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaEliminarCompositor = new VentanaEliminarCompositor(controladorCompositor);
             desktopPane.add(ventanaEliminarCompositor);
         }
-
+        
         ventanaEliminarCompositor.setVisible(true);
     }//GEN-LAST:event_menuEliminarCompositorActionPerformed
 
     private void menuListarCompositoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuListarCompositoresActionPerformed
-
+        
         if (ventanaListarCompositor == null) {
             ventanaListarCompositor = new VentanaListarCompositor(controladorCompositor);
             desktopPane.add(ventanaListarCompositor);
         }
-
+        
         ventanaListarCompositor.setVisible(true);
     }//GEN-LAST:event_menuListarCompositoresActionPerformed
 
     private void menuCrearCantanteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCrearCantanteActionPerformed
-
+        
         if (ventanaAgregarCantante == null) {
             ventanaAgregarCantante = new VentanaAgregarCantante(controladorCantante);
             desktopPane.add(ventanaAgregarCantante);
         }
-
+        
         ventanaAgregarCantante.setVisible(true);
     }//GEN-LAST:event_menuCrearCantanteActionPerformed
 
@@ -330,7 +336,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaBuscarCantante = new VentanaBuscarCantante(controladorCantante);
             desktopPane.add(ventanaBuscarCantante);
         }
-
+        
         ventanaBuscarCantante.setVisible(true);
     }//GEN-LAST:event_menuBuscarCantanteActionPerformed
 
@@ -339,7 +345,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaActualizarCantante = new VentanaActualizarCantante(controladorCantante);
             desktopPane.add(ventanaActualizarCantante);
         }
-
+        
         ventanaActualizarCantante.setVisible(true);
     }//GEN-LAST:event_menuActualizarCantanteActionPerformed
 
@@ -348,7 +354,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaEliminarCantante = new VentanaEliminarCantante(controladorCantante);
             desktopPane.add(ventanaEliminarCantante);
         }
-
+        
         ventanaEliminarCantante.setVisible(true);
     }//GEN-LAST:event_menuEliminarCantanteActionPerformed
 
@@ -357,20 +363,20 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaListarCantantes = new VentanaListarCantantes(controladorCantante);
             desktopPane.add(ventanaListarCantantes);
         }
-
+        
         ventanaListarCantantes.setVisible(true);
     }//GEN-LAST:event_menuListarCantantesActionPerformed
 
     private void menuItemEspañolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemEspañolActionPerformed
         localizacion = new Locale("es", "EC");
         cambiarIdioma();
-
+        
 
     }//GEN-LAST:event_menuItemEspañolActionPerformed
 
-    private void menuItemSalirOpciones1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemSalirOpciones1ActionPerformed
+    private void menuItemSalirOpcionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemSalirOpcionesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuItemSalirOpciones1ActionPerformed
+    }//GEN-LAST:event_menuItemSalirOpcionesActionPerformed
 
     private void menuItemInglesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemInglesActionPerformed
         // TODO add your handling code here:
@@ -437,9 +443,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem menuItemEspañol;
     private javax.swing.JMenuItem menuItemFrances;
     private javax.swing.JMenuItem menuItemIngles;
-    private javax.swing.JMenuItem menuItemSalirOpciones1;
+    private javax.swing.JMenuItem menuItemSalirOpciones;
     private javax.swing.JMenuItem menuListarCantantes;
     private javax.swing.JMenuItem menuListarCompositores;
-    private javax.swing.JMenu menuOpciones1;
+    private javax.swing.JMenu menuOpciones;
     // End of variables declaration//GEN-END:variables
 }
