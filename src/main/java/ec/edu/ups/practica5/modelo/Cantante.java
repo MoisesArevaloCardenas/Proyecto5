@@ -5,6 +5,7 @@
 package ec.edu.ups.practica5.modelo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -121,23 +122,46 @@ public class Cantante extends Persona {
             return salarioFinal;
         } else {
             return super.getSalario();
-
         }
-
     }
 
     public void agregarDisco(Disco disco) {
         discografia.add(disco);
+    }
 
+    public Disco leerDisco(int codigo) {
+        for (Disco disco : discografia) {
+            if (disco.getCodigo() == codigo) {
+                return disco;
+            }
+        }
+        return null;
     }
 
     public void actualizarDisco(Disco disco) {
-        int codigoBusqueda = disco.getCodigo();
         for (int i = 0; i < discografia.size(); i++) {
-            Disco discoEncontrado = discografia.get(i);
-            if (codigoBusqueda == disco.getCodigo()) {
+            Disco c = discografia.get(i);
+            if (c.getCodigo() == disco.getCodigo()) {
+                discografia.set(i, disco);
+                break;
             }
         }
+
+    }
+
+    public void borrarDisco(Disco disco) {
+        Iterator<Disco> it = discografia.iterator();
+        while (it.hasNext()) {
+            Disco c = it.next();
+            if (c.getCodigo() == disco.getCodigo()) {
+                it.remove();
+                break;
+            }
+        }
+    }
+
+    public List<Disco> listarDiscos() {
+        return discografia;
     }
 
     public List<Disco> buscarNombreDeCancion(String titulo) {

@@ -57,7 +57,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     //Internacionalizacion
     private Locale localizacion;
     private ResourceBundle mensajes;
-    
+
     public VentanaPrincipal() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -65,23 +65,34 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         controladorCantante = new ControladorCantante();
         compositorDAO = new CompositorDAO();
         controladorCompositor = new ControladorCompositor();
-        
+
         localizacion = Locale.getDefault();
         mensajes = ResourceBundle.getBundle("mensajes.mensaje", localizacion);
         cambiarIdioma();
     }
-    
+
     private void cambiarIdioma() {
         mensajes = ResourceBundle.getBundle("mensajes.mensaje", localizacion);
+        //Menu principal
         menuCompositor.setText(mensajes.getString("menu.compositor"));
         menuCantante.setText(mensajes.getString("menu.cantante"));
         menuIdiomas.setText(mensajes.getString("menu.idiomas"));
         menuOpciones.setText(mensajes.getString("menu.opciones"));
+        menuItemSalirOpciones.setText(mensajes.getString("menu.salir"));
+        //Menu Compositor        
         menuCrearCompositor.setText(mensajes.getString("menu.crear"));
         menuBuscarCompositor.setText(mensajes.getString("menu.buscar"));
         menuActualizarCompositor.setText(mensajes.getString("menu.actualizar"));
         menuEliminarCompositor.setText(mensajes.getString("menu.eliminar"));
         menuItemSalirOpciones.setText(mensajes.getString("menu.salir"));
+        menuListarCompositores.setText(mensajes.getString("menu.listar"));
+        //Menu Cantante
+        menuCrearCantante.setText(mensajes.getString("menu.crear"));
+        menuBuscarCantante.setText(mensajes.getString("menu.buscar"));
+        menuActualizarCantante.setText(mensajes.getString("menu.actualizar"));
+        menuEliminarCantante.setText(mensajes.getString("menu.eliminar"));
+        menuListarCantantes.setText(mensajes.getString("menu.listar"));
+
     }
 
     /**
@@ -274,22 +285,22 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuCrearCompositorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCrearCompositorActionPerformed
-        
+
         if (ventanaAgregarCompositor == null) {
             ventanaAgregarCompositor = new VentanaAgregarCompositor(controladorCompositor);
             desktopPane.add(ventanaAgregarCompositor);
         }
-        
+
         ventanaAgregarCompositor.setVisible(true);
     }//GEN-LAST:event_menuCrearCompositorActionPerformed
 
     private void menuBuscarCompositorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuBuscarCompositorActionPerformed
-        
+
         if (ventanaBuscarCompositor == null) {
             ventanaBuscarCompositor = new VentanaBuscarCompositor(controladorCompositor);
             desktopPane.add(ventanaBuscarCompositor);
         }
-        
+
         ventanaBuscarCompositor.setVisible(true);
     }//GEN-LAST:event_menuBuscarCompositorActionPerformed
 
@@ -298,7 +309,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaActualizarCompositor = new VentanaActualizarCompositor(controladorCompositor);
             desktopPane.add(ventanaActualizarCompositor);
         }
-        
+
         ventanaActualizarCompositor.setVisible(true);
     }//GEN-LAST:event_menuActualizarCompositorActionPerformed
 
@@ -307,27 +318,27 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaEliminarCompositor = new VentanaEliminarCompositor(controladorCompositor);
             desktopPane.add(ventanaEliminarCompositor);
         }
-        
+
         ventanaEliminarCompositor.setVisible(true);
     }//GEN-LAST:event_menuEliminarCompositorActionPerformed
 
     private void menuListarCompositoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuListarCompositoresActionPerformed
-        
+
         if (ventanaListarCompositor == null) {
             ventanaListarCompositor = new VentanaListarCompositor(controladorCompositor);
             desktopPane.add(ventanaListarCompositor);
         }
-        
+
         ventanaListarCompositor.setVisible(true);
     }//GEN-LAST:event_menuListarCompositoresActionPerformed
 
     private void menuCrearCantanteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuCrearCantanteActionPerformed
-        
+
         if (ventanaAgregarCantante == null) {
             ventanaAgregarCantante = new VentanaAgregarCantante(controladorCantante);
             desktopPane.add(ventanaAgregarCantante);
         }
-        
+
         ventanaAgregarCantante.setVisible(true);
     }//GEN-LAST:event_menuCrearCantanteActionPerformed
 
@@ -336,7 +347,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaBuscarCantante = new VentanaBuscarCantante(controladorCantante);
             desktopPane.add(ventanaBuscarCantante);
         }
-        
+
         ventanaBuscarCantante.setVisible(true);
     }//GEN-LAST:event_menuBuscarCantanteActionPerformed
 
@@ -345,7 +356,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaActualizarCantante = new VentanaActualizarCantante(controladorCantante);
             desktopPane.add(ventanaActualizarCantante);
         }
-        
+
         ventanaActualizarCantante.setVisible(true);
     }//GEN-LAST:event_menuActualizarCantanteActionPerformed
 
@@ -354,7 +365,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaEliminarCantante = new VentanaEliminarCantante(controladorCantante);
             desktopPane.add(ventanaEliminarCantante);
         }
-        
+
         ventanaEliminarCantante.setVisible(true);
     }//GEN-LAST:event_menuEliminarCantanteActionPerformed
 
@@ -363,14 +374,14 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaListarCantantes = new VentanaListarCantantes(controladorCantante);
             desktopPane.add(ventanaListarCantantes);
         }
-        
+
         ventanaListarCantantes.setVisible(true);
     }//GEN-LAST:event_menuListarCantantesActionPerformed
 
     private void menuItemEspañolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemEspañolActionPerformed
         localizacion = new Locale("es", "EC");
         cambiarIdioma();
-        
+
 
     }//GEN-LAST:event_menuItemEspañolActionPerformed
 

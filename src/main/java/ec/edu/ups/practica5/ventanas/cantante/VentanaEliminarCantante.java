@@ -29,7 +29,6 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jPanel6 = new javax.swing.JPanel();
-        txtCancionesTop105 = new javax.swing.JTextField();
         btnAceptar = new javax.swing.JButton();
         btnCancelar = new javax.swing.JButton();
         jlCodigo = new javax.swing.JLabel();
@@ -38,21 +37,22 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
         jlApellido = new javax.swing.JLabel();
         jlNacionalidad = new javax.swing.JLabel();
         jlSalario = new javax.swing.JLabel();
-        txtCancionesTop106 = new javax.swing.JTextField();
-        txtCancionesTop107 = new javax.swing.JTextField();
-        txtCancionesTop108 = new javax.swing.JTextField();
-        txtCancionesTop109 = new javax.swing.JTextField();
-        txtCancionesTop110 = new javax.swing.JTextField();
         jlSalario1 = new javax.swing.JLabel();
         jlSalario2 = new javax.swing.JLabel();
         jlSalario3 = new javax.swing.JLabel();
         jlSalario4 = new javax.swing.JLabel();
         jlSalario5 = new javax.swing.JLabel();
-        txtCancionesTop111 = new javax.swing.JTextField();
-        txtCancionesTop112 = new javax.swing.JTextField();
-        txtCancionesTop113 = new javax.swing.JTextField();
-        txtCancionesTop114 = new javax.swing.JTextField();
-        txtCancionesTop115 = new javax.swing.JTextField();
+        txtCodigoCantanteEliminar = new javax.swing.JTextField();
+        txtNombreCantanteEliminar = new javax.swing.JTextField();
+        txtApellidoCantanteEliminar = new javax.swing.JTextField();
+        txtEdadCantanteEliminar = new javax.swing.JTextField();
+        txtNacionalidadCantanteEliminar = new javax.swing.JTextField();
+        txtSalarioCantanteEliminar = new javax.swing.JTextField();
+        txtNombreArtisticoCantanteEliminar = new javax.swing.JTextField();
+        txtGeneroMusicalCantanteEliminar = new javax.swing.JTextField();
+        txtSencillosCantanteEliminar = new javax.swing.JTextField();
+        txtConciertosCantanteEliminar = new javax.swing.JTextField();
+        txtGirasCantanteEliminar = new javax.swing.JTextField();
 
         setClosable(true);
         setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
@@ -63,13 +63,6 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Eliminar Cantante", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Times New Roman", 1, 14))); // NOI18N
         jPanel6.setForeground(new java.awt.Color(153, 153, 153));
-
-        txtCancionesTop105.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop105.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop105ActionPerformed(evt);
-            }
-        });
 
         btnAceptar.setText("Aceptar");
 
@@ -92,41 +85,6 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
 
         jlSalario.setText("Salario");
 
-        txtCancionesTop106.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop106.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop106ActionPerformed(evt);
-            }
-        });
-
-        txtCancionesTop107.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop107.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop107ActionPerformed(evt);
-            }
-        });
-
-        txtCancionesTop108.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop108.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop108ActionPerformed(evt);
-            }
-        });
-
-        txtCancionesTop109.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop109.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop109ActionPerformed(evt);
-            }
-        });
-
-        txtCancionesTop110.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop110.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop110ActionPerformed(evt);
-            }
-        });
-
         jlSalario1.setText("Nombre Artístico");
 
         jlSalario2.setText("Genero Musical");
@@ -137,38 +95,80 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
 
         jlSalario5.setText("Número de giras");
 
-        txtCancionesTop111.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop111.addActionListener(new java.awt.event.ActionListener() {
+        txtCodigoCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtCodigoCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop111ActionPerformed(evt);
+                txtCodigoCantanteEliminarActionPerformed(evt);
             }
         });
 
-        txtCancionesTop112.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop112.addActionListener(new java.awt.event.ActionListener() {
+        txtNombreCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtNombreCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop112ActionPerformed(evt);
+                txtNombreCantanteEliminarActionPerformed(evt);
             }
         });
 
-        txtCancionesTop113.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop113.addActionListener(new java.awt.event.ActionListener() {
+        txtApellidoCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtApellidoCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop113ActionPerformed(evt);
+                txtApellidoCantanteEliminarActionPerformed(evt);
             }
         });
 
-        txtCancionesTop114.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop114.addActionListener(new java.awt.event.ActionListener() {
+        txtEdadCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtEdadCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop114ActionPerformed(evt);
+                txtEdadCantanteEliminarActionPerformed(evt);
             }
         });
 
-        txtCancionesTop115.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop115.addActionListener(new java.awt.event.ActionListener() {
+        txtNacionalidadCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtNacionalidadCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop115ActionPerformed(evt);
+                txtNacionalidadCantanteEliminarActionPerformed(evt);
+            }
+        });
+
+        txtSalarioCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtSalarioCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtSalarioCantanteEliminarActionPerformed(evt);
+            }
+        });
+
+        txtNombreArtisticoCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtNombreArtisticoCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNombreArtisticoCantanteEliminarActionPerformed(evt);
+            }
+        });
+
+        txtGeneroMusicalCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtGeneroMusicalCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtGeneroMusicalCantanteEliminarActionPerformed(evt);
+            }
+        });
+
+        txtSencillosCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtSencillosCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtSencillosCantanteEliminarActionPerformed(evt);
+            }
+        });
+
+        txtConciertosCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtConciertosCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtConciertosCantanteEliminarActionPerformed(evt);
+            }
+        });
+
+        txtGirasCantanteEliminar.setToolTipText("Ingrese las cancionesTop100Billboard");
+        txtGirasCantanteEliminar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtGirasCantanteEliminarActionPerformed(evt);
             }
         });
 
@@ -182,7 +182,8 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addComponent(btnAceptar)
                         .addGap(18, 18, 18)
-                        .addComponent(btnCancelar))
+                        .addComponent(btnCancelar)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jlCodigo)
@@ -191,77 +192,76 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
                             .addComponent(jlEdad)
                             .addComponent(jlNacionalidad)
                             .addComponent(jlSalario)
-                            .addComponent(jlSalario1))
-                        .addGap(93, 93, 93)
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtCancionesTop111, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop110, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop109, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop108, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop107, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop105, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop106, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jlSalario1)
                             .addComponent(jlSalario2)
                             .addComponent(jlSalario3)
                             .addComponent(jlSalario4)
                             .addComponent(jlSalario5))
-                        .addGap(66, 66, 66)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtCancionesTop115, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop114, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop113, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCancionesTop112, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(txtNacionalidadCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtEdadCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtApellidoCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtNombreCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtCodigoCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtGirasCantanteEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtConciertosCantanteEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtSencillosCantanteEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtGeneroMusicalCantanteEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtNombreArtisticoCantanteEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtSalarioCantanteEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop106, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jlCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop105, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlApellido, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop107, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlEdad, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop108, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlNacionalidad, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop109, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlSalario, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop110, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlSalario1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop111, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlSalario2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop112, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlSalario3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop113, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jlSalario4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop114, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(jlNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jlApellido, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jlEdad, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jlNacionalidad, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jlSalario, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtSalarioCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jlSalario1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtNombreArtisticoCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jlSalario2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtGeneroMusicalCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jlSalario3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtSencillosCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jlSalario4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtConciertosCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(txtCodigoCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtNombreCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtApellidoCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtEdadCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtNacionalidadCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jlSalario5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCancionesTop115, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtGirasCantanteEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAceptar)
@@ -283,60 +283,58 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCancionesTop105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop105ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop105ActionPerformed
-
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
 
-    private void txtCancionesTop106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop106ActionPerformed
+    private void txtCodigoCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCodigoCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop106ActionPerformed
+    }//GEN-LAST:event_txtCodigoCantanteEliminarActionPerformed
 
-    private void txtCancionesTop107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop107ActionPerformed
+    private void txtNombreCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop107ActionPerformed
+    }//GEN-LAST:event_txtNombreCantanteEliminarActionPerformed
 
-    private void txtCancionesTop108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop108ActionPerformed
+    private void txtApellidoCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtApellidoCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop108ActionPerformed
+    }//GEN-LAST:event_txtApellidoCantanteEliminarActionPerformed
 
-    private void txtCancionesTop109ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop109ActionPerformed
+    private void txtEdadCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEdadCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop109ActionPerformed
+    }//GEN-LAST:event_txtEdadCantanteEliminarActionPerformed
 
-    private void txtCancionesTop110ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop110ActionPerformed
+    private void txtNacionalidadCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNacionalidadCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop110ActionPerformed
+    }//GEN-LAST:event_txtNacionalidadCantanteEliminarActionPerformed
 
-    private void txtCancionesTop111ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop111ActionPerformed
+    private void txtSalarioCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSalarioCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop111ActionPerformed
+    }//GEN-LAST:event_txtSalarioCantanteEliminarActionPerformed
 
-    private void txtCancionesTop112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop112ActionPerformed
+    private void txtNombreArtisticoCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreArtisticoCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop112ActionPerformed
+    }//GEN-LAST:event_txtNombreArtisticoCantanteEliminarActionPerformed
 
-    private void txtCancionesTop113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop113ActionPerformed
+    private void txtGeneroMusicalCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGeneroMusicalCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop113ActionPerformed
+    }//GEN-LAST:event_txtGeneroMusicalCantanteEliminarActionPerformed
 
-    private void txtCancionesTop114ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop114ActionPerformed
+    private void txtSencillosCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSencillosCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop114ActionPerformed
+    }//GEN-LAST:event_txtSencillosCantanteEliminarActionPerformed
 
-    private void txtCancionesTop115ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop115ActionPerformed
+    private void txtConciertosCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtConciertosCantanteEliminarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop115ActionPerformed
+    }//GEN-LAST:event_txtConciertosCantanteEliminarActionPerformed
+
+    private void txtGirasCantanteEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGirasCantanteEliminarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtGirasCantanteEliminarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptar;
     private javax.swing.JButton btnCancelar;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JLabel jlApellido;
     private javax.swing.JLabel jlCodigo;
@@ -349,18 +347,16 @@ public class VentanaEliminarCantante extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jlSalario3;
     private javax.swing.JLabel jlSalario4;
     private javax.swing.JLabel jlSalario5;
-    private javax.swing.JTextField txtCancionesTop103;
-    private javax.swing.JTextField txtCancionesTop104;
-    private javax.swing.JTextField txtCancionesTop105;
-    private javax.swing.JTextField txtCancionesTop106;
-    private javax.swing.JTextField txtCancionesTop107;
-    private javax.swing.JTextField txtCancionesTop108;
-    private javax.swing.JTextField txtCancionesTop109;
-    private javax.swing.JTextField txtCancionesTop110;
-    private javax.swing.JTextField txtCancionesTop111;
-    private javax.swing.JTextField txtCancionesTop112;
-    private javax.swing.JTextField txtCancionesTop113;
-    private javax.swing.JTextField txtCancionesTop114;
-    private javax.swing.JTextField txtCancionesTop115;
+    private javax.swing.JTextField txtApellidoCantanteEliminar;
+    private javax.swing.JTextField txtCodigoCantanteEliminar;
+    private javax.swing.JTextField txtConciertosCantanteEliminar;
+    private javax.swing.JTextField txtEdadCantanteEliminar;
+    private javax.swing.JTextField txtGeneroMusicalCantanteEliminar;
+    private javax.swing.JTextField txtGirasCantanteEliminar;
+    private javax.swing.JTextField txtNacionalidadCantanteEliminar;
+    private javax.swing.JTextField txtNombreArtisticoCantanteEliminar;
+    private javax.swing.JTextField txtNombreCantanteEliminar;
+    private javax.swing.JTextField txtSalarioCantanteEliminar;
+    private javax.swing.JTextField txtSencillosCantanteEliminar;
     // End of variables declaration//GEN-END:variables
 }

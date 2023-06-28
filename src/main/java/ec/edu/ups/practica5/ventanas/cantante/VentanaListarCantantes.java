@@ -29,7 +29,7 @@ public class VentanaListarCantantes extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        tblOperadoras = new javax.swing.JTable();
+        tblCantantes = new javax.swing.JTable();
 
         setClosable(true);
         setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
@@ -38,7 +38,7 @@ public class VentanaListarCantantes extends javax.swing.JInternalFrame {
         setResizable(true);
         setTitle("Listar Cantantes");
 
-        tblOperadoras.setModel(new javax.swing.table.DefaultTableModel(
+        tblCantantes.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -54,7 +54,7 @@ public class VentanaListarCantantes extends javax.swing.JInternalFrame {
                 return canEdit [columnIndex];
             }
         });
-        jScrollPane1.setViewportView(tblOperadoras);
+        jScrollPane1.setViewportView(tblCantantes);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -82,6 +82,6 @@ public class VentanaListarCantantes extends javax.swing.JInternalFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable tblOperadoras;
+    private javax.swing.JTable tblCantantes;
     // End of variables declaration//GEN-END:variables
 }

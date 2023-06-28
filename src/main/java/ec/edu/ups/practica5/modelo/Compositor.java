@@ -5,6 +5,7 @@
 package ec.edu.ups.practica5.modelo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -92,6 +93,40 @@ public class Compositor extends Persona {
     public void agregarCancion(Cancion cancion) {
         cancionesTop100Billboard.add(cancion);
 
+    }
+
+    public Cancion leerCancion(int codigo) {
+        for (Cancion cancion : cancionesTop100Billboard) {
+            if (cancion.getCodigo() == codigo) {
+                return cancion;
+            }
+        }
+        return null;
+    }
+
+    public void actualizarCancion(Cancion cancion) {
+        for (int i = 0; i < cancionesTop100Billboard.size(); i++) {
+            Cancion c = cancionesTop100Billboard.get(i);
+            if (c.getCodigo() == cancion.getCodigo()) {
+                cancionesTop100Billboard.set(i, cancion);
+                break;
+            }
+        }
+    }
+
+    public void eliminarCancion(Cancion cancion) {
+        Iterator<Cancion> it = cancionesTop100Billboard.iterator();
+        while (it.hasNext()) {
+            Cancion c = it.next();
+            if (c.getCodigo() == cancion.getCodigo()) {
+                it.remove();
+                break;
+            }
+        }
+    }
+
+    public List<Cancion> listarCanciones() {
+        return cancionesTop100Billboard;
     }
 
     public void agregarCliente(Cantante cantante) {

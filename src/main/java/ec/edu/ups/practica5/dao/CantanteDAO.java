@@ -46,7 +46,6 @@ public class CantanteDAO implements ICantanteDAO {
                 break;
             }
         }
-
     }
 
     @Override
