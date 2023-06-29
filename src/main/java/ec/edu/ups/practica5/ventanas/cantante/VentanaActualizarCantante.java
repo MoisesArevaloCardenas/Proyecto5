@@ -96,81 +96,26 @@ public class VentanaActualizarCantante extends javax.swing.JInternalFrame {
         jlSalario5.setText("Número de giras");
 
         txtCodigoCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCodigoCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCodigoCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtNombreCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtNombreCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombreCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtApellidoCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtApellidoCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtApellidoCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtEdadCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtEdadCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtEdadCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtNacionalidadCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtNacionalidadCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNacionalidadCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtSalarioCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtSalarioCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtSalarioCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtNombreArtisticoCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtNombreArtisticoCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombreArtisticoCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtGeneroMusicalCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtGeneroMusicalCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtGeneroMusicalCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtSencillosCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtSencillosCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtSencillosCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtConciertosCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtConciertosCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtConciertosCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         txtGirasCantanteActualizar.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtGirasCantanteActualizar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtGirasCantanteActualizarActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -284,50 +229,6 @@ public class VentanaActualizarCantante extends javax.swing.JInternalFrame {
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void txtCodigoCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCodigoCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCodigoCantanteActualizarActionPerformed
-
-    private void txtNombreCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombreCantanteActualizarActionPerformed
-
-    private void txtApellidoCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtApellidoCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtApellidoCantanteActualizarActionPerformed
-
-    private void txtEdadCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEdadCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtEdadCantanteActualizarActionPerformed
-
-    private void txtNacionalidadCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNacionalidadCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNacionalidadCantanteActualizarActionPerformed
-
-    private void txtSalarioCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSalarioCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtSalarioCantanteActualizarActionPerformed
-
-    private void txtNombreArtisticoCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreArtisticoCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombreArtisticoCantanteActualizarActionPerformed
-
-    private void txtGeneroMusicalCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGeneroMusicalCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtGeneroMusicalCantanteActualizarActionPerformed
-
-    private void txtSencillosCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSencillosCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtSencillosCantanteActualizarActionPerformed
-
-    private void txtConciertosCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtConciertosCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtConciertosCantanteActualizarActionPerformed
-
-    private void txtGirasCantanteActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGirasCantanteActualizarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtGirasCantanteActualizarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
