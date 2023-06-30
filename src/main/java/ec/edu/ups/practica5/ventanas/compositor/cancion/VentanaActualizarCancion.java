@@ -53,11 +53,6 @@ public class VentanaActualizarCancion extends javax.swing.JInternalFrame {
         jPanel8.setForeground(new java.awt.Color(153, 153, 153));
 
         txtCancionesTop107.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop107.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop107ActionPerformed(evt);
-            }
-        });
 
         btnAceptar.setText("Aceptar");
 
@@ -75,27 +70,12 @@ public class VentanaActualizarCancion extends javax.swing.JInternalFrame {
         jlApellido.setText("Letra");
 
         txtCancionesTop108.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop108.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop108ActionPerformed(evt);
-            }
-        });
 
         txtCancionesTop112.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop112.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop112ActionPerformed(evt);
-            }
-        });
 
         jlApellido1.setText("Tiempo (minutos) ");
 
         txtCancionesTop113.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop113.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop113ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -162,25 +142,9 @@ public class VentanaActualizarCancion extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCancionesTop107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop107ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop107ActionPerformed
-
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void txtCancionesTop108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop108ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop108ActionPerformed
-
-    private void txtCancionesTop112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop112ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop112ActionPerformed
-
-    private void txtCancionesTop113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop113ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop113ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

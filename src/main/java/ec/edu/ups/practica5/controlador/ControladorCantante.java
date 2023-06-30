@@ -20,28 +20,21 @@ public class ControladorCantante {
 
     private ICantanteDAO cantanteDAO;
 
-    public ControladorCantante() {
-    }
-
-    public ControladorCantante(Cantante cantante, Disco disco, ICantanteDAO cantanteDAO) {
-        this.cantante = cantante;
-        this.disco = disco;
+    public ControladorCantante(ICantanteDAO cantanteDAO) {
         this.cantanteDAO = cantanteDAO;
     }
 
-    //llama al DAO para guardar un cliente
     public void crearCantante(Cantante cantante) {
+        this.cantante = cantante;
         cantanteDAO.create(cantante);
     }
 
-    //llama al DAO para obtener un cliente por el id y luego los muestra en la vista
     public void verCantante(int codigo) {
         cantante = cantanteDAO.read(codigo);
 
     }
 
-    //llama al DAO para actualizar un cliente
-    public boolean actualizar(Cantante cantante) {
+    public boolean actualizarCantante(Cantante cantante) {
         Cantante cantanteEncontrado = this.buscar(cantante.getCodigo());
         if (cantanteEncontrado != null) {
             cantanteDAO.update(cantanteEncontrado);
@@ -51,8 +44,7 @@ public class ControladorCantante {
 
     }
 
-    //llama al DAO para eliminar un cliente
-    public boolean eliminar() {
+    public boolean eliminarCantante() {
         Cantante cantanteEncontrado = this.buscar(cantante.getCodigo());
         if (cantanteEncontrado != null) {
             cantanteDAO.delete(cantanteEncontrado);
@@ -61,12 +53,10 @@ public class ControladorCantante {
         return false;
     }
 
-    //llama al DAO para obtener todos los clientes y luego los muestra en la vista
     public List<Cantante> verCantantes() {
         return cantanteDAO.findAll();
     }
 
-    //ejemplo de agregacion
     public void agregarDisco(int codigo) {
         cantante = cantanteDAO.read(codigo);
         cantante.agregarDisco(disco);

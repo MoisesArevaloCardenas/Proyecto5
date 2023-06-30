@@ -240,89 +240,56 @@
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCodigoCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtNombreCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtApellidoCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtApellidoCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtEdadCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEdadCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtNacionalidadCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNacionalidadCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtSalarioCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSalarioCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtNombreArtisticoCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreArtisticoCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtGeneroMusicalCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtGeneroMusicalCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtSencillosCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSencillosCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtConciertosCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtConciertosCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtGirasCantanteEliminar">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtGirasCantanteEliminarActionPerformed"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>

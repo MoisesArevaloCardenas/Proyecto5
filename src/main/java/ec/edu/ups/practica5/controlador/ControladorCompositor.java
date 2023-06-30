@@ -20,42 +20,32 @@ public class ControladorCompositor {
 
     private ICompositorDAO compositorDAO;
 
-    public ControladorCompositor() {
-    }
-
-    public ControladorCompositor(Compositor compositor, Cancion cancion, ICompositorDAO compositorDAO) {
-        this.compositor = compositor;
-        this.cancion = cancion;
+    public ControladorCompositor(ICompositorDAO compositorDAO) {
         this.compositorDAO = compositorDAO;
     }
 
-    //llama al DAO para guardar un cliente
-    public void registrar() {
+    public void crearCompositor(Compositor compositor) {
+        this.compositor = compositor;
         compositorDAO.create(compositor);
     }
 
-    //llama al DAO para obtener un cliente por el id y luego los muestra en la vista
-    public void verCantante(int codigo) {
+    public void verCompositor(int codigo) {
         compositor = compositorDAO.read(codigo);
     }
 
-    //llama al DAO para actualizar un cliente
-    public void actualizar() {
+    public void actualizarCompositor() {
         compositorDAO.update(compositor);
     }
 
-    //llama al DAO para eliminar un cliente
-    public void eliminar() {
+    public void eliminarCompositor() {
         compositorDAO.delete(compositor);
     }
 
-    //llama al DAO para obtener todos los clientes y luego los muestra en la vista
     public List<Compositor> verCompositores() {
         return compositorDAO.findAll();
 
     }
 
-    //ejemplo de agregacion
     public void agregarCancion(int codigo) {
         compositor = compositorDAO.read(codigo);
         compositor.agregarCancion(cancion);

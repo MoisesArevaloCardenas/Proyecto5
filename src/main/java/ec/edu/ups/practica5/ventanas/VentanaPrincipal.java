@@ -62,9 +62,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         cantanteDAO = new CantanteDAO();
-        controladorCantante = new ControladorCantante();
+        controladorCantante = new ControladorCantante(cantanteDAO);
         compositorDAO = new CompositorDAO();
-        controladorCompositor = new ControladorCompositor();
+        controladorCompositor = new ControladorCompositor(compositorDAO);
 
         localizacion = Locale.getDefault();
         mensajes = ResourceBundle.getBundle("mensajes.mensaje", localizacion);

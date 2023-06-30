@@ -78,11 +78,6 @@ public class VentanaAgregarCantante extends javax.swing.JInternalFrame {
 
         txtNombreCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtNombreCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtNombreCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombreCantanteCrearActionPerformed(evt);
-            }
-        });
 
         btnAceptar.setText("Aceptar");
         btnAceptar.addActionListener(new java.awt.event.ActionListener() {
@@ -112,43 +107,18 @@ public class VentanaAgregarCantante extends javax.swing.JInternalFrame {
 
         txtCodigoCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtCodigoCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCodigoCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCodigoCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtApellidoCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtApellidoCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtApellidoCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtApellidoCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtEdadCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtEdadCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtEdadCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtEdadCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtNacionalidadCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtNacionalidadCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtNacionalidadCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNacionalidadCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtSalarioCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtSalarioCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtSalarioCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtSalarioCantanteCrearActionPerformed(evt);
-            }
-        });
 
         jlSalario1.setText("Nombre Artístico");
 
@@ -162,43 +132,18 @@ public class VentanaAgregarCantante extends javax.swing.JInternalFrame {
 
         txtNombreArtisticoCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtNombreArtisticoCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtNombreArtisticoCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombreArtisticoCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtGeneroMusicalCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtGeneroMusicalCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtGeneroMusicalCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtGeneroMusicalCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtSencillosCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtSencillosCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtSencillosCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtSencillosCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtConciertosCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtConciertosCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtConciertosCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtConciertosCantanteCrearActionPerformed(evt);
-            }
-        });
 
         txtGirasCantanteCrear.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtGirasCantanteCrear.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtGirasCantanteCrear.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtGirasCantanteCrearActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -320,53 +265,9 @@ public class VentanaAgregarCantante extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtNombreCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombreCantanteCrearActionPerformed
-
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void txtCodigoCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCodigoCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCodigoCantanteCrearActionPerformed
-
-    private void txtApellidoCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtApellidoCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtApellidoCantanteCrearActionPerformed
-
-    private void txtEdadCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEdadCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtEdadCantanteCrearActionPerformed
-
-    private void txtNacionalidadCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNacionalidadCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNacionalidadCantanteCrearActionPerformed
-
-    private void txtSalarioCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSalarioCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtSalarioCantanteCrearActionPerformed
-
-    private void txtNombreArtisticoCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombreArtisticoCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombreArtisticoCantanteCrearActionPerformed
-
-    private void txtGeneroMusicalCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGeneroMusicalCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtGeneroMusicalCantanteCrearActionPerformed
-
-    private void txtSencillosCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSencillosCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtSencillosCantanteCrearActionPerformed
-
-    private void txtConciertosCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtConciertosCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtConciertosCantanteCrearActionPerformed
-
-    private void txtGirasCantanteCrearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtGirasCantanteCrearActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtGirasCantanteCrearActionPerformed
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         // TODO add your handling code here:
@@ -399,7 +300,7 @@ public class VentanaAgregarCantante extends javax.swing.JInternalFrame {
         controladorCantante.crearCantante(cantante);
 
         JOptionPane.showMessageDialog(this, "Cantante agregado exitosamente.");
-        limpiarCampos();
+        this.limpiarCampos();
 
 
     }//GEN-LAST:event_btnAceptarActionPerformed

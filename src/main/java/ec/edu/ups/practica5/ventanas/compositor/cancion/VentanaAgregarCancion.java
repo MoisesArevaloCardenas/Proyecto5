@@ -53,11 +53,6 @@ public class VentanaAgregarCancion extends javax.swing.JInternalFrame {
         jPanel8.setForeground(new java.awt.Color(153, 153, 153));
 
         txtCancionesTop107.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop107.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop107ActionPerformed(evt);
-            }
-        });
 
         btnAceptar.setText("Aceptar");
 
@@ -75,27 +70,12 @@ public class VentanaAgregarCancion extends javax.swing.JInternalFrame {
         jlApellido.setText("Letra");
 
         txtCancionesTop108.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop108.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop108ActionPerformed(evt);
-            }
-        });
 
         txtCancionesTop112.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop112.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop112ActionPerformed(evt);
-            }
-        });
 
         jlApellido1.setText("Tiempo (minutos) ");
 
         txtCancionesTop113.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop113.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop113ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -162,43 +142,19 @@ public class VentanaAgregarCancion extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCancionesTop107ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop107ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop107ActionPerformed
-
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void txtCancionesTop108ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop108ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop108ActionPerformed
-
-    private void txtCancionesTop112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop112ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop112ActionPerformed
-
-    private void txtCancionesTop113ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop113ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop113ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptar;
     private javax.swing.JButton btnCancelar;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JLabel jlApellido;
     private javax.swing.JLabel jlApellido1;
     private javax.swing.JLabel jlCodigo;
     private javax.swing.JLabel jlNombre;
-    private javax.swing.JTextField txtCancionesTop103;
-    private javax.swing.JTextField txtCancionesTop104;
-    private javax.swing.JTextField txtCancionesTop105;
-    private javax.swing.JTextField txtCancionesTop106;
     private javax.swing.JTextField txtCancionesTop107;
     private javax.swing.JTextField txtCancionesTop108;
     private javax.swing.JTextField txtCancionesTop112;

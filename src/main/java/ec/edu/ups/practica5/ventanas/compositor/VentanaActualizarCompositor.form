@@ -126,25 +126,16 @@
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop105ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCancionesTop106">
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop106ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCancionesTop100">
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop100ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jlApellido">
       <Properties>
@@ -165,9 +156,6 @@
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop101ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jlCodigo">
       <Properties>
@@ -183,17 +171,11 @@
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop102ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCancionesTop103">
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop103ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnAceptar">
       <Properties>
@@ -204,9 +186,6 @@
       <Properties>
         <Property name="toolTipText" type="java.lang.String" value="Ingrese las cancionesTop100Billboard"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCancionesTop104ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnCancelar">
       <Properties>

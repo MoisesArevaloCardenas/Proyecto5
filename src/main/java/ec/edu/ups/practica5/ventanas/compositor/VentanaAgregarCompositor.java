@@ -55,34 +55,14 @@ public class VentanaAgregarCompositor extends javax.swing.JInternalFrame {
         jlNombre.setText("Nombre");
 
         txtCancionesTop103.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop103.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop103ActionPerformed(evt);
-            }
-        });
 
         txtCancionesTop104.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop104.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop104ActionPerformed(evt);
-            }
-        });
 
         jlEdad.setText("Edad");
 
         txtCancionesTop105.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop105.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop105ActionPerformed(evt);
-            }
-        });
 
         txtCancionesTop100.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop100.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop100ActionPerformed(evt);
-            }
-        });
 
         jlApellido.setText("Apellido");
 
@@ -91,20 +71,10 @@ public class VentanaAgregarCompositor extends javax.swing.JInternalFrame {
         jlSalario.setText("Salario");
 
         txtCancionesTop101.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop101.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop101ActionPerformed(evt);
-            }
-        });
 
         jlCodigo.setText("Código");
 
         txtCancionesTop102.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop102.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop102ActionPerformed(evt);
-            }
-        });
 
         btnAceptar.setText("Aceptar");
 
@@ -118,11 +88,6 @@ public class VentanaAgregarCompositor extends javax.swing.JInternalFrame {
         jlSalario1.setText("Número de composiciones");
 
         txtCancionesTop106.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop106.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop106ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -194,37 +159,9 @@ public class VentanaAgregarCompositor extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCancionesTop103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop103ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop103ActionPerformed
-
-    private void txtCancionesTop104ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop104ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop104ActionPerformed
-
-    private void txtCancionesTop105ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop105ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop105ActionPerformed
-
-    private void txtCancionesTop100ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop100ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop100ActionPerformed
-
-    private void txtCancionesTop101ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop101ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop101ActionPerformed
-
-    private void txtCancionesTop102ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop102ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop102ActionPerformed
-
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void txtCancionesTop106ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop106ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop106ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

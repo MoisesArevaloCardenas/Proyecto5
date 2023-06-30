@@ -50,11 +50,6 @@ public class VentanaAgregarDisco extends javax.swing.JInternalFrame {
         jPanel4.setForeground(new java.awt.Color(153, 153, 153));
 
         txtCancionesTop103.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop103.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop103ActionPerformed(evt);
-            }
-        });
 
         btnAceptar.setText("Aceptar");
 
@@ -72,18 +67,8 @@ public class VentanaAgregarDisco extends javax.swing.JInternalFrame {
         jlApellido.setText("Año de lanzamiento");
 
         txtCancionesTop104.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop104.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop104ActionPerformed(evt);
-            }
-        });
 
         txtCancionesTop112.setToolTipText("Ingrese las cancionesTop100Billboard");
-        txtCancionesTop112.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCancionesTop112ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -144,46 +129,20 @@ public class VentanaAgregarDisco extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCancionesTop103ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop103ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop103ActionPerformed
-
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
-
-    private void txtCancionesTop104ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop104ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop104ActionPerformed
-
-    private void txtCancionesTop112ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCancionesTop112ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCancionesTop112ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptar;
     private javax.swing.JButton btnCancelar;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JLabel jlApellido;
     private javax.swing.JLabel jlCodigo;
     private javax.swing.JLabel jlNombre;
     private javax.swing.JTextField txtCancionesTop103;
     private javax.swing.JTextField txtCancionesTop104;
-    private javax.swing.JTextField txtCancionesTop105;
-    private javax.swing.JTextField txtCancionesTop106;
-    private javax.swing.JTextField txtCancionesTop107;
-    private javax.swing.JTextField txtCancionesTop108;
-    private javax.swing.JTextField txtCancionesTop109;
-    private javax.swing.JTextField txtCancionesTop110;
-    private javax.swing.JTextField txtCancionesTop111;
     private javax.swing.JTextField txtCancionesTop112;
     // End of variables declaration//GEN-END:variables
 }
